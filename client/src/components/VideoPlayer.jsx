@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { Grid, Typography, Paper, makeStyles } from '@material-ui/core';
 
-import { SocketContext } from '../Context';
+import { SocketContext } from '../SocketContext';
 
 const useStyles = makeStyles((theme) => ({
   video: {
